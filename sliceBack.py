@@ -15,3 +15,5 @@ print(letters[4::-1])
 print(letters[:17:-1])     #start @char[17] up to the last char including it (in reverse -1)
 print(letters[:-9:-1])     #start @char[-9] up to the last char including it (in reverse -1)
 
+print(letters[::6])
+
