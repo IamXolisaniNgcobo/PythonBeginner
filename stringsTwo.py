@@ -1,6 +1,4 @@
-number = "9,223;372:036 854,775;807"
-separators = number[1::4]
-print(separators)
-
-values = "".join(char if char not in separators else " " for char in number).split()
-print([int(val) for val in values])
+n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+string_ints = [str(int) for int in n]
+str_of_ints = "".join(string_ints)
+print(str_of_ints)

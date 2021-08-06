@@ -20,6 +20,11 @@ print("Pi is approximately {0:<62.50f}".format(22 / 7))
 print("Pi is approximately {0:<72.50f}".format(22 / 7))
 print("Pi is approximately {0:<72.54f}".format(22 / 7))
 
+
+name="Sipho"
+age=22
+print("My name is {0} and i am {1} years old".format(name,age))
+
 for i in range(1, 13):
     print("No. {} squared is {} and cubed is {:4}".format(i, i ** 2, i ** 3))    #formated display
                                                                  #{0} , {1},   {2}
